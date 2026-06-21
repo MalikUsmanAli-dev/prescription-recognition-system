@@ -1,0 +1,23 @@
+# Core application
+streamlit>=1.38.0
+
+# Image processing
+opencv-python-headless>=4.10.0
+numpy>=1.26.0
+Pillow>=10.4.0
+
+# Data handling & charts
+pandas>=2.2.0
+plotly>=5.24.0
+
+# Groq (Llama-4 vision, OpenAI-compatible chat completions)
+groq>=0.13.0
+
+# PDF report generation
+reportlab>=4.2.0
+
+# Nicer sidebar navigation
+streamlit-option-menu>=0.3.13
+
+# Environment variable handling
+python-dotenv>=1.0.0
