@@ -1,5 +1,10 @@
 # 💊 MediScan AI — AI-Assisted Prescription Recognition and Medicine Retrieval System
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-green)
+![Groq](https://img.shields.io/badge/Groq-Llama4-orange)
+
 A premium, healthcare-themed Streamlit application that combines a classical **Digital Image
 Processing (DIP)** pipeline with **Groq's Llama-4 Vision AI** to automatically extract medicines,
 dosage strengths, and usage instructions from photographed prescriptions — and exports the
@@ -8,6 +13,14 @@ result as a polished PDF report.
 Built as a Final Year Project (FYP) deliverable / professional portfolio showcase.
 
 ---
+
+## Key Highlights
+
+- Implemented a 5-stage Digital Image Processing pipeline.
+- Integrated Groq Llama-4 Vision for prescription understanding.
+- Generated automated PDF reports using ReportLab.
+- Developed interactive analytics dashboards using Plotly.
+- Designed a modular architecture with reusable components.
 
 ## ✨ Features
 
@@ -49,6 +62,23 @@ prescription_recognition_system/
 ├── requirements.txt
 └── README.md
 ```
+
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Image Processing Pipeline
+![Pipeline](screenshots/pipeline.png)
+
+### Analytics
+![Analytics](screenshots/analytics.png)
+
+
+## Live Demo
+
+🌐 Streamlit App: https://medscan-prescription-recognition-system-malik-usman.streamlit.app/?authuser=0
+
 
 ---
 
